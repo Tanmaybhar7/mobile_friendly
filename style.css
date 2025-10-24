@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4a90e2;
+  color: white;
+  padding: 20px 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  padding: 40px 60px;
+}
+
+.content img {
+  width: 600px;
+  height: auto;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 1.5;
+}
